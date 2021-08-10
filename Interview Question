@@ -1,0 +1,16 @@
+Domain: Cloud Security
+Question 3: Containers
+
+Containers are appropriate to use in Cloud Deployments to ensure updates and maintenance of your Cloud Network and Virtual Machines. Security benefits include quick updates and patches to several VMs on your network.
+
+Because Docker Containers encapsulate everything an application needs to run, containers allow them to be shifted quickly and easily between work spaces. 
+
+Containers were created on a Jumpbox that includse the IPs of the Specific VMs that are running on the network.
+
+Once created, these containers were configured to run specific applications and configurations to ensure each VM is up to date.
+
+Amongst these configurations, traffic and data logging software can be pushed that allows monitoring of the Network to record metrics, data logs and usage..
+
+While a Container is not specifically needed, you are able to run and push applications to a VM but this process would be done one VM at a time. The advantages to this are that a Specific VM would be updated to your liking vs updating Several VMs when and if unnecessary. Disadvantages of not using a Container are the time and effort it would take to update and install specific applications and configurations to each VM.
+
+A container houses these configurations that will be sent to each VM within the Specified Group.
